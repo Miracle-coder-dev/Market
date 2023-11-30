@@ -1,10 +1,11 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Market</title>
-    <link rel="stylesheet" href="./Files/styles.css"">
+    <link rel="stylesheet" href="./Files/styles.css">
+    <script src="./Files/script.js"></script>
+
 </head>
 <body>
     <nav class="navbar">
@@ -14,12 +15,38 @@
             <li><a href="./Files/Hisobot.html">Hisobot</a></li>
         </ul>
     </nav>
+    <main>
+        <div class="container">
+            <div class="cont_1">
+                <label for="xaridor">Xaridor nomi</label><br>
+                <input type="text" class="form-control" id="xaridor">
+            </div>
+
+            <div class="cont_2">
+                <label for="maxsulotNomi">Maxsulot nomi</label><br>
+                <input type="text" class="form-control" id="maxsulotNomi">
+            </div>
+
+            <div class="cont_3">
+                <label for="maxsulotSoni">Maxsulot soni</label><br>
+                <input type="number" class="form-control" id="maxsulotSoni">
+            </div>
+
+            <div class="cont_4">
+                <label for="maxsulotNarx">Maxsulot narxi</label><br>
+                <input type="number" class="form-control" id="maxsulotNarx">
+            </div>
+
+        </div>
+        <div>
+            <button class="button_kiritish" type="button" id="btn-lappy" onclick="addOnClick()">Kiritish</button>
+        </div>
         <table id="table">
 
-            
+        
 
         </table>
-    
-    <script src="./Files/script.js"></script>
+        
+    </main>
 </body>
 </html>
